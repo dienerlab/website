@@ -1,0 +1,7 @@
+baseurl = "https://dienerlab.com"
+languageCode = "en-us"
+title = "Our lab website"
+
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+pygmentsOptions = "linenos=true"

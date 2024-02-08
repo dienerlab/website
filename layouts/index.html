@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+		<div class="hero-body">
+		  <div class="container">
+			<img src="media/hero.png" width="600px">
+		  </div></div>
+	  </section>
+<div class="container" style="max-width: 960px">
+{{ range where .Site.RegularPages "Section" "front" }}
+<section class="section animate__animated animate__fadeIn">
+	<h1 class="title is-3 has-text-info has-text-weight-light">{{ .Title }}</h1>
+
+	<div class="content">
+		{{ .Content }}
+	</div>
+</section>
+{{end}}</div>
+<section class="section">
+<div class="container" style="max-width: 960px">
+{{ range $i, $e := first 1 (where .Site.RegularPages "Section" "pubs") }}
+<div class="card has-shadow block">
+<header class="card-header is-high" {{ if $e.Params.hero }}style="background: url('/media/{{$e.Params.hero}}') center / cover"{{end}}>
+</header>
+<div class="card-content">
+	<h1 class="subtitle is-5 has-text-weight-light">Latest publication</h1>
+	<h1 class="title is-5 has-text-info has-text-weight-normal">{{ .Title }}</h1>
+	<div class="content">
+		{{ $e.Summary }}
+	</div>
+<div class="content">
+    <a class="button is-info is-outlined"
+        href="{{.RelPermalink}}">Read more...</a>&nbsp;
+	<a class="button is-info is-outlined" href="http://dx.doi.org/{{$e.Params.doi}}" target="_blank">
+		<span class="icon"><i class="fas fa-link"></i></span><span>DOI</span></a>
+	</div>
+</div></div>
+{{end}}
+<br>
+{{ range first 1 (where .Site.RegularPages "Section" "posts") }}
+<div class="card has-shadow">
+<header class="card-header is-high" {{ if .Params.hero }}style="background: url('/media/{{.Params.hero}}') center / cover; min-height: 7rem"{{end}}>
+</header>
+<div class="card-content">
+	  <h1 class="subtitle is-5 has-text-weight-light">Latest post</h1>
+    <h1 class="title is-5 has-text-info has-text-weight-normal">{{ .Title }}</h1>
+	<p class="content">{{ .Summary }}</p>
+<div class="content">
+	<a class="button is-info is-outlined" href="{{.RelPermalink}}">Read more...</a>
+</div></div></div>
+{{end}}
+</div>
+</section>
+{{ partial "info_footer.html" . }}
