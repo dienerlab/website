@@ -1,13 +1,16 @@
 +++
-picture = ""
+picture = ".jpg"
+first = ""
+last = ""
+email = ""
 status = "active"
 position = ""
 twitter = ""
 bluesky = ""
-mastodon ""
+mastodon = ""
 orcid = ""
 website = ""
 date = "{{ .Date }}"
 +++
 
-<!-- Very short bio here -->
+<!-- Leave empty -->

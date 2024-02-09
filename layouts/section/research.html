@@ -1,3 +1,34 @@
 {{ partial "header.html" . }}
 
+<div class="hero-body">
+	<div class="container">
+	<h1 class="title">
+		Research
+	</h1>
+	<h2 class="subtitle">
+		The broad research topics we pursue.
+	</h2>
+    </div>
+</div>
+</section>
+
+<section class="section">
+    <div class="container" style="max-width: 1200px">
+    {{ range where .Site.RegularPages "Section" "research" }}
+    <section class="section container">
+        <div class="card has-shadow">
+            <div class="card-header has-background-primary">
+            <h1 class="card-header-title title is-4 has-text-white has-text-weight-light">{{ .Title }}</h1>
+            </div>
+            <div class="card-content">
+                <div class="content is-medium">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+        </section>
+    {{end}}
+    </div>
+</section>
+
 {{ partial "footer.html" . }}
