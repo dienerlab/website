@@ -10,16 +10,6 @@
 	</div></div>
 </section>
 
-<style>
-img.face {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    margin-right: 1em;
-    padding: 0;
-}
-</style>
-
 <section class="section">
 <div class="container">
 
@@ -27,16 +17,14 @@ img.face {
 <div class="columns is-tablet is-multiline">
 {{range where .Data.Pages.ByDate "Section" "team" }}
 {{ if eq .Params.status "active"}}
-    <div class="column is-4-widescreen is-6-tablet" style="min-width: 450px">
+    <div class="column is-4-widescreen is-6-tablet">
     <div class="card has-shadow animate__animated animate__zoomIn animate__fast">
     <div class="card-content">
-        <div class="columns is-mobile is-vcentered">
+        <div class="basic-info">
 
-        <div class="column is-5">
         <img src="/media/team/{{ .Params.picture }}" class="face">
-        </div>
 
-        <div class="column is-7">
+        <div>
 
         <h1 class="title is-5 has-text-primary has-text-weight-normal">{{ .Params.first }} {{ .Params.last }}</h1>
         <p class="subtitle"><span class="tag is-info is-medium">{{ .Params.position }}</span></p>
@@ -101,16 +89,14 @@ img.face {
 <div class="columns is-tablet is-multiline">
 {{range where .Data.Pages "Section" "team" }}
 {{ if eq .Params.status "alumni"}}
-    <div class="column is-4-widescreen is-6-tablet">
+<div class="column is-4-widescreen is-6-tablet">
     <div class="card has-shadow animate__animated animate__zoomIn animate__fast">
     <div class="card-content">
-        <div class="columns is-mobile is-vcentered">
+        <div class="basic-info">
 
-        <div class="column is-5">
         <img src="/media/team/{{ .Params.picture }}" class="face">
-        </div>
 
-        <div class="column is-7">
+        <div>
 
         <h1 class="title is-5 has-text-primary has-text-weight-normal">{{ .Params.first }} {{ .Params.last }}</h1>
         <p class="subtitle"><span class="tag is-info is-medium">{{ .Params.position }}</span></p>

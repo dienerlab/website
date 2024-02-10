@@ -13,22 +13,19 @@
 </section>
 
 <section class="section">
-    <div class="container" style="max-width: 1200px">
+    <div class="container" style="max-width: 1024px">
     {{ range where .Site.RegularPages "Section" "research" }}
-    <section class="section container">
-        <div class="card has-shadow">
+        <div class="card has-shadow animate__animated animate__zoomIn animate__fast">
             <div class="card-header has-background-primary">
             <h1 class="card-header-title title is-4 has-text-white has-text-weight-light">{{ .Title }}</h1>
             </div>
             <div class="card-content">
-                <div class="content is-medium">
+                <div class="content">
                     {{ .Content }}
                 </div>
             </div>
         </div>
-        </section>
     {{end}}
-    </div>
-</section>
+    </div></section>
 
 {{ partial "footer.html" . }}
