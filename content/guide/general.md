@@ -28,7 +28,7 @@ In addition to the above:
 * Actively participate in lab meetings
 * Give lab members ample credit when it comes to acknowledgements or authorships on papers (always err on the side of generosity)
 * Work from lab/office at least 3 days of a normal work week, but feel free to work remotely 1-2 days a week (try to prioritize coming in on days when others tend to be here as well, so we overlap with one another). Certain individuals may need flexibility on this point, which you can discuss on a case-by-case basis with Christian.
-* Be responsive on email and/or Slack during core work hours (except when on vacation, maternity/paternity leave, or sick leave)
+* Be responsive on email and/or Discord during core work hours (except when on vacation, maternity/paternity leave, or sick leave)
 * Don’t overwork. Look out for your mental health and take time to cultivate your life outside of work. Academic life can be stressful. Arrange vacation time. Keep me in the loop if you feel burnt out.
 
 ### Commitment to excellence
@@ -65,7 +65,7 @@ Senior graduate students and postdocs play an important role in the education of
 
 More formal mentorship experiences can also be arranged. Undergraduate or high school students often may out asking for formal internships with our group. You are welcome to mentor an intern (depending on your workload) and design projects for them. Internships can take many forms. The only requirement is that they must present their projects at least once at lab meeting.
 
-The **main communication platform for the lab is our Slack** followed by E-mail as a backup. Please be responsive there within the core working hours. Everybody is allowed to post messages outside of working hours but no expectations should be made to have those answered immediately.
+The **main communication platform for the lab is our Discord** followed by E-mail as a backup. Please be responsive there within the core working hours. Everybody is allowed to post messages outside of working hours but no expectations should be made to have those answered immediately.
 
 ### Working with collaborators
 

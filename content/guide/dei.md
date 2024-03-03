@@ -76,7 +76,7 @@ Rita Colwell and Sharon Bertsch McGrayne
 : [A Lab of One's Own: One Woman's Personal Journey Through Sexism in Science](https://www.indiebound.org/book/9781501181276)
 
 Ibrahim Kendi
-: [How to bean an antiracist](https://en.wikipedia.org/wiki/How_to_Be_an_Antiracist)
+: [How to be an an antiracist](https://en.wikipedia.org/wiki/How_to_Be_an_Antiracist)
 
 Meredith Broussard
 : [More than a Glitch: Confronting Race, Gender, and Ability Bias in Tech](https://www.penguinrandomhouse.com/books/718186/more-than-a-glitch-by-meredith-broussard/)
