@@ -1,46 +1,43 @@
 <!doctype html>
 <html lang="en">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Our lab website. Welcome!">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-	{{ hugo.Generator }}
+	<meta name="generator" content="Hugo 0.123.7">
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@thaasophobia" />
-	<meta property="og:url" content="{{.Permalink}}" />
-	<meta property="og:title" content="{{.Title}}" />
-	<meta property="og:description" content="{{.Summary}}..." />
-	{{ if .Params.hero }}
-	<meta property="og:image" content="{{ .Site.BaseURL }}/media/headers/{{.Params.hero}}" />{{end}}
+	<meta property="og:url" content="http://localhost:1313/404.html" />
+	<meta property="og:title" content="404 Page not found" />
+	<meta property="og:description" content="..." />
+	
 
-	<title>{{ .Site.Title }}</title>
+	<title>Our lab website</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-	{{ $style := resources.Get "sass/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	
+	<link rel="stylesheet" href="http://localhost:1313/sass/styles.min.0517c6e06bb04e5cd2a259d80bc70e9246d1f8a478b042da87711ec02fcf1394.css">
 	<link rel="icon" type="image/png" href="/media/favicon.png" />
 </head>
 
 <body>
-	{{ .Scratch.Set "color" "is-primary" }}
-	{{ if .Params.hero }}{{ .Scratch.Set "color" "is-dark" }}
-	{{ else if .Section }}{{ .Scratch.Set "color" "is-primary" }}{{ end }}
-	{{ .Scratch.Set "shadow" "has-shadow" }}
-	{{ if eq .Section "cv" }}{{ .Scratch.Set "shadow" "" }}{{ end }}
-	<section class="hero {{ .Scratch.Get "color" }} is-bold {{ .Scratch.Get "shadow" }}"
-		{{ if .IsPage }}style="background: url(/media/headers/{{ .Params.hero | default "default.jpg"}}) center / cover !important"
-		{{ end }}>
+	
+	
+	
+	
+	<section class="hero is-primary is-bold has-shadow"
+		>
 		<div class="hero-head">
 			<nav class="navbar" role="navigation" aria-label="main navigation">
 				<div class="container">
 					<div class="navbar-brand">
-						{{ if not .IsHome}}
+						
 						<a class="navbar-item is-hidden-touch" href="/">
 							<h1 class="title is-5 has-text-white">diener lab</h1>
 						</a>
@@ -49,7 +46,7 @@
 								<i class="fa-solid fa-lg fa-house"></i>
 							</span>
 						</a>
-						{{ end }}
+						
 						<a class="navbar-item is-hidden-desktop" href="http://orcid.org/0000-0002-7476-0868"
 							target="_blank">
 							<span class="icon is-medium has-text-white">
@@ -83,13 +80,13 @@
 								<span class="icon"><i class="fas fa-book"></i></span><span>Lab Guide</span>
 							</a>
 						</div>
-						<div class="navbar-end is-hidden-touch {{ if .IsPage }}is-invisible{{ end }}">
+						<div class="navbar-end is-hidden-touch ">
 							<a class="navbar-item" href="http://orcid.org/0000-0002-7476-0868 " target="_blank">
 								<span class="icon is-medium has-text-white">
 									<i class="fab fa-lg fa-orcid"></i>
 								</span>
 							</a>
-							<a class="navbar-item" href="http://github.com/dienerlab" target="_blank">
+							<a class="navbar-item" href="http://github.com/cdiener" target="_blank">
 								<span class="icon is-medium has-text-white">
 									<i class="fab fa-lg fa-github"></i>
 								</span>
@@ -99,3 +96,67 @@
 				</div>
 			</nav>
 		</div>
+
+
+<div class="hero-body">
+	<div class="container">
+	<h1 class="title">
+		This page does not exist :(
+	</h1>
+	</div>
+</section>
+
+<section class="section">
+<div class="container"><div class="columns is-centered">
+<img src="media/obi404.png" width="60%" align="center">
+</div></div>
+
+</section>
+
+
+
+<footer class="footer is-dark">
+<div class="content">
+<div class="level">
+    <div class="level-item">
+    <p>
+      <a href="mailto:mail[at]dienerlab.com">mail[at]dienerlab.com</a><br><br>
+      Diagnostic and Research Institute of Hygiene, Microbiology and Environmental Medicine<br>
+      <span class="has-text-primary has-text-weight-bold">
+        Medical University of Graz
+      </span><br>
+      Neue Stiftingtalstraße 6, 8010 Graz, Austria
+    </p></div>
+
+    <span class="level-item">built with&nbsp;<a href="http://gohugo.io">Hugo 0.123.7</a></span>
+</div></div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+
+if ($navbarBurgers.length > 0) {
+
+  
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+});
+</script>
+</body>
+</html>
+

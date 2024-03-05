@@ -1,8 +1,9 @@
 +++
-weight = 0
+weight = 2
 authors = ["Christian Diener"]
 date = "2024-02-09T14:12:00-08:00"
 title = "Diversity, Equity & Inclusion"
+short = "DEI"
 +++
 
 ### Overview

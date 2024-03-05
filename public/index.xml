@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our lab website</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Our lab website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Mar 2024 14:12:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab Values &amp; Policies</title>
+      <link>http://localhost:1313/guide/general/</link>
+      <pubDate>Thu, 08 Feb 2024 12:56:33 -0800</pubDate>
+      <guid>http://localhost:1313/guide/general/</guid>
+      <description>This is a living document and all lab members are encouraged to propose changes as they see fit. It is the entire labs&amp;rsquo; responsibility to hold me accountable to what is written here and I always invite criticism should I fail to comply.&#xA;Overview My main function is to provide a safe, productive, supportive, and, hopefully, fun environment for you to carry out and publish high-quality research. Academia can be full of highs and lows and I will dedicate myself to amplify the highs and buffer the lows as much as possible.</description>
+    </item>
+    <item>
+      <title>Diversity, Equity &amp; Inclusion</title>
+      <link>http://localhost:1313/guide/dei/</link>
+      <pubDate>Fri, 09 Feb 2024 14:12:00 -0800</pubDate>
+      <guid>http://localhost:1313/guide/dei/</guid>
+      <description>Overview We value and honor the uniqueness of each individual and embrace diverse backgrounds and viewpoints. We aim to prepare students, postdocs, and visiting scholars for their future as scientists and citizens in an equitable, inclusive, multicultural society.&#xA;Values Our lab holds diversity, equity, and inclusion as core values and is committed to upholding them. Dimensions of diversity include, but are not limited to, race, ethnicity, sexuality, gender identity, socioeconomic background, national or cultural origins, religion, political beliefs, different abilities, neurodiversity, and lifestyle.</description>
+    </item>
+    <item>
+      <title>Welcome 👋</title>
+      <link>http://localhost:1313/front/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/front/lab/</guid>
+      <description>We are a lab led by Christian Diener at the Medical University of Graz in the Diagnostic and Research Institute of Hygiene, Microbiology and Environmental Medicine. Our lab studies the human gut microbiome through an approach that combines ecology, systems biology, and metabolism. We are also big fans of equitable and accessible Science and participate in various efforts to share our research, software, and teaching materials.&#xA;Like us, microbes rarely live alone and may behave quite differently when around others or in a new environment.</description>
+    </item>
+    <item>
+      <title>The lab wiki</title>
+      <link>http://localhost:1313/guide/wiki/</link>
+      <pubDate>Mon, 04 Mar 2024 14:12:00 -0800</pubDate>
+      <guid>http://localhost:1313/guide/wiki/</guid>
+      <description>A lot of the know-how and ins-and-outs of the lab are kept on our lab wiki which all group members can contribute to.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/team/bruno/</link>
+      <pubDate>Thu, 08 Feb 2024 17:30:20 -0800</pubDate>
+      <guid>http://localhost:1313/team/bruno/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/team/christian/</link>
+      <pubDate>Thu, 08 Feb 2024 16:44:46 -0800</pubDate>
+      <guid>http://localhost:1313/team/christian/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Metagenomic estimation of dietary intake from human stool</title>
+      <link>http://localhost:1313/pubs/medi/</link>
+      <pubDate>Wed, 07 Feb 2024 17:03:26 -0800</pubDate>
+      <guid>http://localhost:1313/pubs/medi/</guid>
+      <description>Dietary intake is tightly coupled to gut microbiota composition, human metabolism, and to the incidence of virtually all major chronic diseases. Dietary and nutrient intake are usually quantified using dietary questionnaires, which tend to focus on broad food categories, suffer from self-reporting biases, and require strong compliance from study participants. Here, we present MEDI (Metagenomic Estimation of Dietary Intake): a method for quantifying dietary intake using food-derived DNA in stool metagenomes.</description>
+    </item>
+    <item>
+      <title>Microbial community-scale metabolic modeling predicts personalized short-chain-fatty-acid production profiles in the human gut</title>
+      <link>http://localhost:1313/pubs/scfas/</link>
+      <pubDate>Wed, 31 Jan 2024 16:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/scfas/</guid>
+      <description>Microbially-derived short-chain fatty acids (SCFAs) in the human gut are tightly coupled to host metabolism, immune regulation, and integrity of the intestinal epithelium. However, the production of SCFAs can vary widely between individuals consuming the same diet, with lower levels often associated with disease. A mechanistic understanding of this heterogeneity is lacking. We present a microbial community-scale metabolic modeling (MCMM) approach to predict individual-specific SCFA production profiles. We assess the quantitative accuracy of our MCMMs using in vitro, ex vivo, and in vivo data.</description>
+    </item>
+    <item>
+      <title>Personalized Clostridioides difficile engraftment risk prediction and probiotic therapy assessment in the human gut</title>
+      <link>http://localhost:1313/pubs/cdiff/</link>
+      <pubDate>Wed, 31 Jan 2024 16:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/cdiff/</guid>
+      <description>Clostridioides difficile colonizes up to 30-40% of community-dwelling adults without causing disease. C. difficile infections (CDIs) are the leading cause of antibiotic-associated diarrhea in the U.S. and typically develop in individuals following disruption of the gut microbiota due to antibiotic or chemotherapy treatments. Further treatment of CDI with antibiotics is not always effective and can lead to antibiotic resistance and recurrent infections (rCDI). The most effective treatment for rCDI is the reestablishment of an intact microbiota via fecal microbiota transplants (FMTs).</description>
+    </item>
+    <item>
+      <title>More is Different: Metabolic Modeling of Diverse Microbial Communities</title>
+      <link>http://localhost:1313/pubs/perspective/</link>
+      <pubDate>Tue, 21 Mar 2023 13:16:59 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/perspective/</guid>
+      <description>Microbial consortia drive essential processes, ranging from nitrogen fixation in soils to providing metabolic breakdown products to animal hosts. However, it is challenging to translate the composition of microbial consortia into their emergent functional capacities. Community-scale metabolic models hold the potential to simulate the outputs of complex microbial communities in a given environmental context, but there is currently no consensus for what the fitness function of an entire community should look like in the presence of ecological interactions and whether community-wide growth operates close to a maximum.</description>
+    </item>
+    <item>
+      <title>Multiomic investigations of Body Mass Index reveal heterogeneous trajectories in response to a lifestyle intervention</title>
+      <link>http://localhost:1313/pubs/kengo_bmi/</link>
+      <pubDate>Mon, 20 Mar 2023 13:36:17 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/kengo_bmi/</guid>
+      <description>Multiomic profiling is useful in characterizing heterogeneity of both health and disease states. Obesity exerts profound metabolic perturbation in individuals and is a risk factor for multiple chronic diseases. Here, we report a global atlas of cross-sectional and longitudinal changes associated with Body Mass Index (BMI) across 1,100+ blood analytes, as well as their correspondence to host genome and fecal microbiome composition, from a cohort of 1,277 individuals enrolled in a wellness program.</description>
+    </item>
+    <item>
+      <title>Genome-microbiome interplay provides insight into the determinants of the human blood metabolome</title>
+      <link>http://localhost:1313/pubs/interplay/</link>
+      <pubDate>Thu, 10 Nov 2022 13:36:24 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/interplay/</guid>
+      <description>Variation in the blood metabolome is intimately related to human health. However, few details are known about the interplay between genetics and the microbiome in explaining this variation on a metabolite-by-metabolite level. Here, we perform analyses of variance for each of 930 blood metabolites robustly detected across a cohort of 1,569 individuals with paired genomic and microbiome data while controlling for a number of relevant covariates. We find that 595 (64%) of these blood metabolites are significantly associated with either host genetics or the gut microbiome, with 69% of these associations driven solely by the microbiome, 15% driven solely by genetics and 16% under hybrid genome–microbiome control.</description>
+    </item>
+    <item>
+      <title>Heterogeneity in statin responses explained by variation in the human gut microbiome</title>
+      <link>http://localhost:1313/pubs/tom_statins/</link>
+      <pubDate>Fri, 10 Jun 2022 13:36:44 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/tom_statins/</guid>
+      <description>Despite the undeniable cholesterol lowering benefits of statin therapy, considerable heterogeneity exists in individual responses to the same treatment. Human gut bacteria are known to metabolize statins in vitro, but there is limited information on how microbiome composition may contribute to statin on-target and/or adverse effects. Here, the authors identify a novel blood-based biomarker for monitoring statin effects in two large, independent human cohorts. They identify gut microbiome features robustly associated with variable statin responses, both in terms of on-target (cholesterol lowering) and adverse (insulin resistance) effects.</description>
+    </item>
+    <item>
+      <title>Gut microbiome pattern reflects healthy ageing and predicts survival in humans</title>
+      <link>http://localhost:1313/pubs/ageing/</link>
+      <pubDate>Thu, 18 Feb 2021 16:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/ageing/</guid>
+      <description>The gut microbiome has important effects on human health, yet its importance in human ageing remains unclear. In the present study, we demonstrate that, starting in mid-to-late adulthood, gut microbiomes become increasingly unique to individuals with age. We leverage three independent cohorts comprising over 9,000 individuals and find that compositional uniqueness is strongly associated with microbially produced amino acid derivatives circulating in the bloodstream. In older age (over ~80 years), healthy individuals show continued microbial drift towards a unique compositional state, whereas this drift is absent in less healthy individuals.</description>
+    </item>
+    <item>
+      <title>Baseline Gut Metagenomic Functional Gene Signature Associated with Variable Weight Loss Responses following a Healthy Lifestyle Intervention in Humans</title>
+      <link>http://localhost:1313/pubs/weight_loss/</link>
+      <pubDate>Tue, 05 Jan 2021 16:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/weight_loss/</guid>
+      <description>Recent human feeding studies have shown how the baseline taxonomic composition of the gut microbiome can determine responses to dietary interventions, but the exact functional determinants underlying this phenomenon remain unclear. In this study, we set out to better understand interactions between baseline BMI, metabolic health, diet, gut microbiome functional profiles, and subsequent weight changes in a human cohort that underwent a healthy lifestyle intervention. Overall, our results suggest that the microbiota may influence host weight loss responses through variable bacterial growth rates, dietary energy harvest efficiency, and immunomodulation.</description>
+    </item>
+    <item>
+      <title>MEMOTE for standardized genome-scale metabolic model testing</title>
+      <link>http://localhost:1313/pubs/memote/</link>
+      <pubDate>Mon, 02 Mar 2020 15:06:11 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/memote/</guid>
+      <description>Reconstructing metabolic reaction networks enables the development of testable hypotheses of an organism’s metabolism under different conditions1. State-of-the-art genome-scale metabolic models (GEMs) can include thousands of metabolites and reactions that are assigned to subcellular locations. Gene–protein–reaction (GPR) rules and annotations using database information can add meta-information to GEMs. GEMs with metadata can be built using standard reconstruction protocols2, and guidelines have been put in place for tracking provenance and enabling interoperability, but a standardized means of quality control for GEMs is lacking3.</description>
+    </item>
+    <item>
+      <title>MICOM: metagenome-scale modeling to infer metabolic interactions in the microbiota</title>
+      <link>http://localhost:1313/pubs/micom/</link>
+      <pubDate>Tue, 21 Jan 2020 15:09:39 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/micom/</guid>
+      <description>Compositional changes in the gut microbiota have been associated with a variety of medical conditions such as obesity, Crohn’s disease, and diabetes. However, connecting microbial community composition to ecosystem function remains a challenge. Here, we introduce MICOM, a customizable metabolic model of the human gut microbiome. By using a heuristic optimization approach based on L2 regularization, we were able to obtain a unique set of realistic growth rates that corresponded well with observed replication rates.</description>
+    </item>
+    <item>
+      <title>Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2</title>
+      <link>http://localhost:1313/pubs/qiime2/</link>
+      <pubDate>Wed, 24 Jul 2019 16:24:35 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/qiime2/</guid>
+      <description>Rapid advances in DNA-sequencing and bioinformatics technologies in the past two decades have substantially improved understanding of the microbial world. This growing understanding relates to the vast diversity of microorganisms; how microbiota and microbiomes affect disease and medical treatment; how microorganisms affect the health of the planet; and the nascent exploration of the medical, forensic, environmental and agricultural applications of microbiome biotechnology. Much of this work has been driven by marker-gene surveys (for example, bacterial/archaeal 16S rRNA genes, fungal internal-transcribed-spacer regions and eukaryotic 18S rRNA genes), which profile microbiota with varying degrees of taxonomic specificity and phylogenetic information.</description>
+    </item>
+    <item>
+      <title>Non-responder phenotype reveals apparent microbiome-wide antibiotic tolerance in the murine gut</title>
+      <link>http://localhost:1313/pubs/non_responder/</link>
+      <pubDate>Sat, 06 Apr 2019 15:11:51 -0700</pubDate>
+      <guid>http://localhost:1313/pubs/non_responder/</guid>
+      <description>Broad spectrum antibiotics cause both transient and lasting damage to the ecology of the gut microbiome. Antibiotic-induced loss of gut bacterial diversity has been linked to susceptibility to enteric infections. Prior work on subtherapeutic antibiotic treatment in humans and non-human animals has suggested that entire gut communities may exhibit tolerance phenotypes. In this study, we validate the existence of these community tolerance phenotypes in the murine gut and explore how antibiotic treatment duration or a diet enriched in antimicrobial phytochemicals might influence the frequency of this phenotype.</description>
+    </item>
+    <item>
+      <title>Niche dynamics in microbial communities</title>
+      <link>http://localhost:1313/research/niches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/niches/</guid>
+      <description>The trillions of microorganisms living in our gut (as well as the 70 gigatons carbon of microbes on the planet) perform a complex ballet of metabolic interactions between each other and their environment, giving rise to a myriad of biotransformations.&#xA;We study the flexibility of microorganisms in adapting their nutrient needs and their interactions with surrounding microbes in varying environments with a focus on how this may impact health and disease in the human gut.</description>
+    </item>
+  </channel>
+</rss>

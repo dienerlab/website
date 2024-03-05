@@ -1,8 +1,9 @@
 +++
-weight = 0
+weight = 1
 authors = ["Christian Diener"]
 date = "2024-02-08T12:56:33-08:00"
 title = "Lab Values & Policies"
+short = "General"
 +++
 
 This is a living document and all lab members are encouraged to propose changes as they see fit. It is the entire labs' responsibility to hold me accountable to what is written here and I always invite criticism should I fail to comply.

@@ -3,8 +3,9 @@ weight = 2
 title = "Welcome 👋"
 +++
 
-We are a lab led by Christian Diener at the [Medical University of Graz](https://medunigraz.at) and
-study the human gut microbiome through an approach that combines ecology, systems biology,
+We are a lab led by Christian Diener at the [Medical University of Graz](https://medunigraz.at) in the
+Diagnostic and Research Institute of Hygiene, Microbiology and Environmental Medicine. Our lab
+studies the human gut microbiome through an approach that combines ecology, systems biology,
 and metabolism. We are also big fans of equitable and accessible Science and
 participate in various efforts to share our research, software, and teaching materials.
 

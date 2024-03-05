@@ -13,12 +13,11 @@
 <nav class="tabs is-boxed is-fullwidth is-medium">
     <div class="container">
         <ul>
-            <li class="tab is-active" onclick="open_tab(event, 'general')">
-                <a>Values &amp; Policies</a>
+            {{ range where .Pages "Section" "guide" }}
+            <li class="tab {{ if eq .File.ContentBaseName "general"}} is-active {{end}}" onclick="open_tab(event, '{{ .File.ContentBaseName }}')">
+                <a>{{ .Params.short }}</a>
             </li>
-            <li class="tab" onclick="open_tab(event, 'dei')">
-                <a>DEI</a>
-            </li>
+            {{ end }}
         </ul>
     </div>
 </nav>
@@ -33,7 +32,7 @@
 {{ range where .Site.RegularPages "Section" "guide" }}
 <article class="is-tab animate__animated animate__fadeIn"
          id="{{ .File.ContentBaseName }}"
-         {{ if eq .File.ContentBaseName "dei"}} style="display: none" {{ else }} style="display: block" {{ end }}>
+         {{ if eq .File.ContentBaseName "general"}} style="display: block" {{ else }} style="display: none" {{ end }}>
     <section class="section container">
     <h1 class="title is-2 has-text-info has-text-weight-light">{{ .Title }}</h1>
     <p class="level subtitle is-6 has-text-grey is-mobile">
