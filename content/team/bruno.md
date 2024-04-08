@@ -10,7 +10,7 @@ bluesky = ""
 mastodon = ""
 orcid = ""
 website = ""
-date = "2024-02-08T17:30:20-08:00"
+date = "2024-04-08"
 +++
 
 <!-- Very short bio here -->

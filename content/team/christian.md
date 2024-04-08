@@ -2,7 +2,7 @@
 picture = "cd.webp"
 first = "Christian"
 last = "Diener"
-email = "mail [at] dienerlab.com"
+email = "christian.diener [at] medunigraz.at"
 status = "active"
 position = "Assistant Professor"
 twitter = "https://twitter.com/thaasophobia"

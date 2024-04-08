@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/guide/dei/</loc>
-    <lastmod>2024-02-09T14:12:00-08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/guide/general/</loc>
     <lastmod>2024-02-08T12:56:33-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/guide/dei/</loc>
+    <lastmod>2024-02-09T14:12:00-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/front/lab/</loc>
+  </url><url>
+    <loc>http://localhost:1313/guide/wiki/</loc>
+    <lastmod>2024-03-04T14:12:00-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/guide/</loc>
     <lastmod>2024-03-04T14:12:00-08:00</lastmod>
@@ -16,13 +19,13 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-03-04T14:12:00-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/guide/wiki/</loc>
-    <lastmod>2024-03-04T14:12:00-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/team/bruno/</loc>
-    <lastmod>2024-02-08T17:30:20-08:00</lastmod>
+    <loc>http://localhost:1313/team/klara/</loc>
+    <lastmod>2024-03-01T08:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/team/</loc>
+    <lastmod>2024-03-01T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/team/bruno/</loc>
     <lastmod>2024-02-08T17:30:20-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/team/christian/</loc>

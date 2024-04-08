@@ -6,13 +6,20 @@
     <description>Recent content in Teams on Our lab website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Feb 2024 17:30:20 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>http://localhost:1313/team/bruno/</link>
-      <pubDate>Thu, 08 Feb 2024 17:30:20 -0800</pubDate>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/team/bruno/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/team/klara/</link>
+      <pubDate>Fri, 01 Mar 2024 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/klara/</guid>
       <description> </description>
     </item>
     <item>
