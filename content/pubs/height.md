@@ -3,7 +3,6 @@ hero = "people.jpg"
 pubmed = ""
 doi = "10.1093/ismejo/wrae114"
 title = "Island biogeography theory provides a plausible explanation for why larger vertebrates and taller humans have more diverse gut microbiomes"
-keywords = ["new"]
 date = "2024-06-21T10:00:00+02:00"
 +++
 

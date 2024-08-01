@@ -1,9 +1,8 @@
 +++
 hero = "health1.jpg"
-pubmed = ""
-doi = ""
+pubmed = "38654335"
+doi = "10.1186/s12915-024-01887-0"
 title = "Meta-analysis of the human upper respiratory tract microbiome reveals robust taxonomic associations with health and disease"
-keywords = ["new"]
 date = "2024-04-23T10:00:00+02:00"
 +++
 

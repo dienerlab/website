@@ -22,7 +22,13 @@
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-	{{ $style := resources.Get "sass/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+
+	{{ $opts := dict
+		"transpiler" "dartsass"
+		"includePaths" (slice "node_modules/bootstrap/scss")
+	}}
+
+	{{ $style := resources.Get "sass/styles.scss" | resources.ToCSS $opts | resources.Minify | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 	<link rel="icon" type="image/png" href="/media/favicon.png" />
 </head>
@@ -31,9 +37,7 @@
 	{{ .Scratch.Set "color" "is-primary" }}
 	{{ if .Params.hero }}{{ .Scratch.Set "color" "is-dark" }}
 	{{ else if .Section }}{{ .Scratch.Set "color" "is-primary" }}{{ end }}
-	{{ .Scratch.Set "shadow" "has-shadow" }}
-	{{ if eq .Section "cv" }}{{ .Scratch.Set "shadow" "" }}{{ end }}
-	<section class="hero {{ .Scratch.Get "color" }} is-bold {{ .Scratch.Get "shadow" }}"
+	<section class="hero {{ .Scratch.Get "color" }} is-bold"
 		{{ if .IsPage }}style="background: url(/media/headers/{{ .Params.hero | default "default.jpg"}}) center / cover !important"
 		{{ end }}>
 		<div class="hero-head">
@@ -42,7 +46,7 @@
 					<div class="navbar-brand">
 						{{ if not .IsHome}}
 						<a class="navbar-item is-hidden-touch" href="/">
-							<h1 class="title is-5 has-text-white">diener lab</h1>
+							<h1 class="title is-5 has-text-weight-normal">diener lab</h1>
 						</a>
 						<a class="navbar-item is-hidden-desktop" href="/">
 							<span class="icon is-medium has-text-white">
@@ -50,6 +54,11 @@
 							</span>
 						</a>
 						{{ end }}
+						<a class="navbar-item is-hidden-desktop" role="button" aria-label="dark-mode" onclick="toggle_mode()">
+							<span class="icon is-medium has-text-white dark-mode">
+								<i class="fas fa-moon"></i>
+							</span>
+						</a>
 						<a class="navbar-item is-hidden-desktop" href="http://orcid.org/0000-0002-7476-0868"
 							target="_blank">
 							<span class="icon is-medium has-text-white">
@@ -63,6 +72,7 @@
 						</a>
 						<a role="button" class="navbar-burger burger has-text-white" aria-label="menu"
 							aria-expanded="false" data-target="top-nav">
+							<span aria-hidden="true"></span>
 							<span aria-hidden="true"></span>
 							<span aria-hidden="true"></span>
 							<span aria-hidden="true"></span>
@@ -84,6 +94,11 @@
 							</a>
 						</div>
 						<div class="navbar-end is-hidden-touch {{ if .IsPage }}is-invisible{{ end }}">
+							<a class="navbar-item" role="button" aria-label="dark-mode" onclick="toggle_mode()">
+								<span class="icon is-medium has-text-white">
+									<i class="fas fa-moon"></i>
+								</span>
+							</a>
 							<a class="navbar-item" href="http://orcid.org/0000-0002-7476-0868 " target="_blank">
 								<span class="icon is-medium has-text-white">
 									<i class="fab fa-lg fa-orcid"></i>

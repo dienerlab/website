@@ -14,6 +14,13 @@ function open_tab(evt, tabName) {
   evt.currentTarget.classList.add("is-active");
 }
 
+function toggle_mode() {
+  const element = document.getElementsByTagName("html")[0];
+  var theme = element.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  element.setAttribute("data-theme", theme)
+  localStorage.setItem("theme", theme)
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 if ($navbarBurgers.length > 0) {
@@ -29,6 +36,18 @@ if ($navbarBurgers.length > 0) {
     });
   });
 }
+
+const element = document.getElementsByTagName("html")[0];
+if (localStorage.getItem("theme") === null) {
+  localStorage.setItem("theme", "light")
+  if (window.matchMedia) {
+    // Check if the dark-mode Media-Query matches
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+      localStorage.setItem("theme", "dark")
+    }
+  }
+}
+element.setAttribute('data-theme', localStorage.getItem('theme'));
 });
 </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">

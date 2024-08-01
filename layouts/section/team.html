@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <div class="hero-body">
 	<div class="container">
-	<h1 class="title">
+	<h1 class="title has-text-weight-normal">
 		The Team
 	</h1>
 	<h2 class="subtitle">
@@ -13,7 +13,7 @@
 <section class="section">
 <div class="container">
 
-<h1 class="title is-3 has-text-info">Current</h1><br>
+<h1 class="title is-3 has-text-info has-text-weight-normal">Current</h1><br>
 <div class="columns is-tablet is-multiline">
 {{range where .Data.Pages.ByDate "Section" "team" }}
 {{ if eq .Params.status "active"}}
@@ -26,8 +26,8 @@
 
         <div>
 
-        <h1 class="title is-5 has-text-primary has-text-weight-normal">{{ .Params.first }} {{ .Params.last }}</h1>
-        <p class="subtitle"><span class="tag is-info is-medium">{{ .Params.position }}</span></p>
+        <h1 class="title is-5 has-text-weight-normal">{{ .Params.first }} {{ .Params.last }}</h1>
+        <p class="subtitle" style="margin-top: 0.5em"><span class="tag is-info is-medium">{{ .Params.position }}</span></p>
         <span class="is-size-6">joined {{ .Date.Format "2006-01-02" }}</span><br>
         <span><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></span>
 
@@ -85,7 +85,7 @@
 
 <br><br><br>
 
-<h1 class="title is-3 has-text-info">Alumni</h1><br>
+<h1 class="title is-3 has-text-info has-text-weight-normal">Alumni</h1><br>
 <div class="columns is-tablet is-multiline">
 {{range where .Data.Pages "Section" "team" }}
 {{ if eq .Params.status "alumni"}}
