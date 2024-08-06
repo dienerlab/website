@@ -1,5 +1,5 @@
 +++
-picture = "cd.webp"
+picture = "cd.jpg"
 first = "Christian"
 last = "Diener"
 email = "christian.diener [at] medunigraz.at"
