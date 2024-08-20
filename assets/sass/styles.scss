@@ -70,5 +70,9 @@ html[data-theme=dark] {
     background-color: var(--bulma-grey-darker) !important;
 }
 
+html[data-theme=dark] .tabs.is-boxed li.is-active a {
+    color: var(--bulma-link-color) !important;
+    background-color: var(--bulma-grey-darker) !important;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700|Roboto+Mono');

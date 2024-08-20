@@ -37,7 +37,9 @@
 	{{ .Scratch.Set "color" "is-primary" }}
 	{{ if .Params.hero }}{{ .Scratch.Set "color" "is-dark" }}
 	{{ else if .Section }}{{ .Scratch.Set "color" "is-primary" }}{{ end }}
-	<section class="hero {{ .Scratch.Get "color" }} is-bold"
+	{{ .Scratch.Set "shadow" "has-shadow" }}
+	{{ if eq .Section "guide" }}{{ .Scratch.Set "shadow" "" }}{{ end }}
+	<section class="hero {{ .Scratch.Get "color" }} is-bold {{ .Scratch.Get "shadow" }}"
 		{{ if .IsPage }}style="background: url(/media/headers/{{ .Params.hero | default "default.jpg"}}) center / cover !important"
 		{{ end }}>
 		<div class="hero-head">
