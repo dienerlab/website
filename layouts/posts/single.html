@@ -1,0 +1,37 @@
+{{ partial "header.html" . }}
+<div class="hero-body">
+	<div class="container animated fadeIn">
+		<h1 class="title has-text-weight-light is-spaced has-text-shadow">
+			{{ .Title }}
+		</h1>
+		<h2 class="subtitle is-spaced">
+			by {{ delimit .Params.Authors ", " " & " }}
+		</h2>
+		<div class="level">
+			<h2 class="level-start subtitle">
+				<span class="icon"><i class="far fa-calendar"></i></span>{{.Date.Format "January 2, 2006"}}
+			</h2>
+			<div class="level-end tags">
+				{{ range .Keywords }}
+				<span class="tag is-medium is-white">{{ . }}</span>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+	</section>
+	<section class="section animated fadeIn slow">
+		<article class="container" style="max-width: 960px">
+			<div class="content">
+				{{ .Content }}
+			</div>
+			<div class="buttons">
+				{{ range $name, $url := .Params.links }}
+				<a class="button is-info is-outlined" href="{{ $url }}"
+					target="_blank">
+					<span class="icon"><i class="fas fa-book"></i></span><span>{{ $name }}</span>
+				</a>
+				{{ end }}
+			</div>
+		</article>
+	</section>
+	{{ partial "footer.html" . }}

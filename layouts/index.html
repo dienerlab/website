@@ -16,6 +16,7 @@
 {{end}}</div>
 <section class="section">
 <div class="container" style="max-width: 960px">
+
 {{ range $i, $e := first 1 (where .Site.RegularPages "Section" "pubs") }}
 <div class="card has-shadow block">
 <header class="card-header is-high" {{ if $e.Params.hero }}style="background: url('/media/headers/{{$e.Params.hero}}') center / cover"{{end}}>
@@ -38,8 +39,31 @@
 		<span class="icon"><i class="fas fa-link"></i></span><span>DOI</span></a>
 	</div>
 </div>
-</div></div>
+</div>
 {{end}}
+
+{{ range $i, $e := first 1 (where .Site.RegularPages "Section" "posts") }}
+<div class="card has-shadow block">
+<header class="card-header is-high" {{ if $e.Params.hero }}style="background: url('/media/headers/{{$e.Params.hero}}') center / cover"{{end}}>
+</header>
+<div class="card-content">
+	<h1 class="subtitle is-5 has-text-weight-light">Latest post</h1>
+	<h1 class="title is-5 has-text-info has-text-weight-normal">{{ .Title }}</h1>
+	{{ if .Keywords }}<div class="tags">
+		{{ range .Keywords }}
+		<span class="tag is-info">{{ . }}</span>
+		{{ end }}
+	</div>{{ end }}
+	<div class="content">
+		{{ $e.Summary }}
+	</div>
+<div class="content">
+    <a class="button is-info is-outlined"
+        href="{{.RelPermalink}}">Read more...</a>
+</div>
+</div>
+{{end}}
+
 </div>
 </section>
 {{ partial "info_footer.html" . }}

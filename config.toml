@@ -5,3 +5,7 @@ title = "Our lab website"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
 pygmentsOptions = "linenos=true"
+
+[taxonomies]
+  author = "authors"
+  keyword = "keywords"
