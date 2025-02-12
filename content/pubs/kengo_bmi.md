@@ -25,5 +25,3 @@ which were significantly modified by obesity and partially reversed in the metab
 obese population through the program. Altogether, our findings provide an atlas of the
 gradual blood perturbations accompanying obesity and serve as a valuable resource for
 robustly characterizing metabolic health and identifying actionable targets for obesity.
-
-{{< tweet user="nrapapo" id="1637857856686034945" >}}

@@ -33,4 +33,4 @@ assess probiotic treatment efficacy. MCMMs could be extended to understand the
 mechanistic underpinnings of personalized engraftment of other opportunistic bacterial
 pathogens, beneficial probiotic organisms, or more complex microbial consortia.
 
-{{< tweet user="thaasophobia" id="1653142017931907072" >}}
+{{< bluesky link="https://bsky.app/profile/cdiener.com/post/3lguj6xehim23" >}}

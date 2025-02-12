@@ -22,7 +22,3 @@ adult population. Additionally, we were able to identify specific dietary featur
 associated with metabolic syndrome in a large clinical cohort, providing a
 proof-of-concept for detailed quantification of individual-specific dietary patterns
 without the need for questionnaires.
-
-{{< tweet user="gibbological" id="1755018066277339186" >}}
-
-{{< tweet user="thaasophobia" id="1754938057697132628" >}}

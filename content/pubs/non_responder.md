@@ -27,4 +27,4 @@ or microbiome-associated factors are responsible for tipping communities between
 responder and non-responder phenotypes so that we might learn to harness this phenomenon
 to protect our microbiota from routine antibiotic treatment.
 
-{{< tweet user="thaasophobia" id="1369356733194235904" >}}
+{{< bluesky link="https://bsky.app/profile/cdiener.com/post/3lguk2lrevs2w" >}}

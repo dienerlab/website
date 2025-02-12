@@ -23,6 +23,4 @@ Furthermore, we show how two nondynamic, steady-state approaches approximate dyn
 trajectories and pick ecologically relevant solutions from the community growth cone
 with improved computational scalability.
 
-{{< tweet user="thaasophobia" id="1638593241498161153" >}}
-
-{{< tweet user="gibbological" id="1638626949231951872" >}}
+{{< bluesky link="https://bsky.app/profile/cdiener.com/post/3lguj6xtl252y" >}}

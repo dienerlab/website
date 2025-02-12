@@ -22,5 +22,3 @@ a low gut microbiome uniqueness measure, predicts decreased survival in a 4-year
 follow-up. Our analysis identifies increasing compositional uniqueness of the gut
 microbiome as a component of healthy ageing, which is characterized by distinct
 microbial metabolic outputs in the blood.
-
-{{< tweet user="TWilmanski" id="1362450675465125889" >}}

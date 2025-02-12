@@ -21,4 +21,4 @@ metabolite–microbe association is specific to a particular genetic background,
 common, albeit with modest effect sizes. This knowledge will help to guide targeted
 interventions designed to alter the composition of the human blood metabolome.
 
-{{< tweet user="thaasophobia" id="1490785182529437701" >}}
+{{< bluesky link="https://bsky.app/profile/cdiener.com/post/3lgujrgcewr2d" >}}

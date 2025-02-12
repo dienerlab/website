@@ -17,5 +17,3 @@ In order to address this issue, we assembled 26 independent 16S rRNA gene amplic
 ### Conclusions
 
 We found several robust genus-level associations, across multiple independent studies, with either health or disease status. We identified disease associations specific to a particular respiratory condition and associations general to all conditions. Ultimately, we reveal robust associations between the URT microbiome, health, and disease, which hold across multiple studies and can help guide follow-up work on potential URT microbiome diagnostics and therapeutics.
-
-{{< tweet user="gibbological" id="1782898966251860063" >}}

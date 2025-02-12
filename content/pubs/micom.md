@@ -40,4 +40,3 @@ metabolic interactions within microbial communities. We show that MICOM can unra
 ecological rules that shape the microbial landscape in our gut and that a given dietary
 or probiotic intervention can have widely different effects in different people.
 
-{{< tweet user="thaasophobia" id="1219732546784677888" >}}
