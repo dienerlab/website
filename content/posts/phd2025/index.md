@@ -2,12 +2,12 @@
 title = "Open PhD position: Designing the niche space of the human gut microbiome"
 hero = "creative1.jpg"
 authors = ["Christian Diener"]
-keywords = ["position", "open", "phd"]
+keywords = ["position", "closed", "phd"]
 date = "2025-02-11T14:49:59+01:00"
 links = { "apply here" = "https://phd-recruiting.medunigraz.at/" }
 +++
 
-**Deadline: March 21st, 2025** - **[apply here](https://phd-recruiting.medunigraz.at/)**
+**Application for this position has concluded. Thank you!**
 
 Virtually every surface of our planet is colonized by microbes and the human body is no
 exception. The 38 trillion microbes living in our gut metabolize a large fraction of the
