@@ -13,7 +13,9 @@ have substantially improved understanding of the microbial world. This growing
 understanding relates to the vast diversity of microorganisms; how microbiota and
 microbiomes affect disease and medical treatment; how microorganisms affect the health
 of the planet; and the nascent exploration of the medical, forensic, environmental and
-agricultural applications of microbiome biotechnology. Much of this work has been driven
+agricultural applications of microbiome biotechnology.
+
+Much of this work has been driven
 by marker-gene surveys (for example, bacterial/archaeal 16S rRNA genes, fungal
 internal-transcribed-spacer regions and eukaryotic 18S rRNA genes), which profile
 microbiota with varying degrees of taxonomic specificity and phylogenetic information.

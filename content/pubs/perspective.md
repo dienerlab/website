@@ -15,7 +15,9 @@ capacities. Community-scale metabolic models hold the potential to simulate the 
 of complex microbial communities in a given environmental context, but there is
 currently no consensus for what the fitness function of an entire community should look
 like in the presence of ecological interactions and whether community-wide growth
-operates close to a maximum. Transitioning from single-taxon genome-scale metabolic
+operates close to a maximum.
+
+Transitioning from single-taxon genome-scale metabolic
 models to multitaxon models implies a growth cone without a well-specified growth rate
 solution for individual taxa. Here, we argue that dynamic approaches naturally overcome
 these limitations, but they come at the cost of being computationally expensive.

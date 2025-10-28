@@ -25,7 +25,7 @@
 		"includePaths" (slice "node_modules/bootstrap/scss")
 	}}
 
-	{{ $style := resources.Get "sass/styles.scss" | resources.ToCSS $opts | resources.Minify | resources.Fingerprint }}
+	{{ $style := resources.Get "sass/styles.scss" | css.Sass $opts | resources.Minify | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 	<link rel="icon" type="image/png" href="/media/favicon.png" />
 </head>

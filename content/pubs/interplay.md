@@ -13,7 +13,9 @@ details are known about the interplay between genetics and the microbiome in exp
 this variation on a metabolite-by-metabolite level. Here, we perform analyses of
 variance for each of 930 blood metabolites robustly detected across a cohort of
 1,569 individuals with paired genomic and microbiome data while controlling for a number
-of relevant covariates. We find that 595 (64%) of these blood metabolites are
+of relevant covariates.
+
+We find that 595 (64%) of these blood metabolites are
 significantly associated with either host genetics or the gut microbiome, with 69% of
 these associations driven solely by the microbiome, 15% driven solely by genetics and
 16% under hybrid genome–microbiome control. Additionally, interaction effects, where a

@@ -17,7 +17,9 @@ cost-effective approach that circumvents some of these technical challenges: dir
 estimating bacterial biomass from metagenomes using bacterial-to-host (B:H) read ratios.
 We compare B:H ratios to the standard methods outlined above, demonstrating that B:H
 ratios are useful proxies for bacterial biomass in stool and possibly in other
-host-associated substrates. We show how B:H ratios can be used to track antibiotic
+host-associated substrates.
+
+We show how B:H ratios can be used to track antibiotic
 treatment response and recovery in both mice and humans, which showed 403-fold and
 45-fold reductions in bacterial biomass during antibiotic treatment, respectively. Our
 results indicate that host and bacterial metagenomic DNA fractions in human stool

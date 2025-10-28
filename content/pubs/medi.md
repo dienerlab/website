@@ -12,7 +12,9 @@ the incidence of virtually all major chronic diseases. Dietary and nutrient inta
 usually assessed using self-reporting methods, including dietary questionnaires and food
 records, which suffer from reporting biases and require strong compliance from study
 participants. Here, we present Metagenomic Estimation of Dietary Intake (MEDI): a method
-for quantifying food-derived DNA in human faecal metagenomes. We show that
+for quantifying food-derived DNA in human faecal metagenomes.
+
+We show that
 DNA-containing food components can be reliably detected in stool-derived metagenomic
 data, even when present at low abundances (more than ten reads). We show how MEDI
 dietary intake profiles can be converted into detailed metabolic representations of

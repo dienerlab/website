@@ -15,7 +15,9 @@ in humans and non-human animals has suggested that entire gut communities may ex
 tolerance phenotypes. In this study, we validate the existence of these community
 tolerance phenotypes in the murine gut and explore how antibiotic treatment duration or
 a diet enriched in antimicrobial phytochemicals might influence the frequency of this
-phenotype. Almost a third of mice exhibited whole-community tolerance to a high dose of
+phenotype.
+
+Almost a third of mice exhibited whole-community tolerance to a high dose of
 the β-lactam antibiotic cefoperazone, independent of antibiotic treatment duration or
 dietary phytochemical amendment. We observed few compositional differences between
 non-responder microbiota during antibiotic treatment and the untreated control

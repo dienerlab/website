@@ -13,7 +13,9 @@ states. Obesity exerts profound metabolic perturbation in individuals and is a r
 factor for multiple chronic diseases. Here, we report a global atlas of cross-sectional
 and longitudinal changes associated with Body Mass Index (BMI) across 1,100+ blood
 analytes, as well as their correspondence to host genome and fecal microbiome
-composition, from a cohort of 1,277 individuals enrolled in a wellness program. Machine
+composition, from a cohort of 1,277 individuals enrolled in a wellness program.
+
+Machine
 learning-based models predicting BMI from blood multiomics captured heterogeneous states
 of both metabolic and gut microbiome health better than classically measured BMI,
 suggesting that multiomic data can provide deeper insight into host physiology.

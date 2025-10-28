@@ -14,13 +14,17 @@ microbial community composition to ecosystem function remains a challenge. Here,
 introduce MICOM, a customizable metabolic model of the human gut microbiome. By using a
 heuristic optimization approach based on L2 regularization, we were able to obtain a
 unique set of realistic growth rates that corresponded well with observed replication
-rates. We integrated adjustable dietary and taxon abundance constraints to generate
+rates.
+
+We integrated adjustable dietary and taxon abundance constraints to generate
 personalized metabolic models for individual metagenomic samples. We applied MICOM to a
 balanced cohort of metagenomes from 186 people, including a metabolically healthy
 population and individuals with type 1 and type 2 diabetes. Model results showed that
 individual bacterial genera maintained conserved niche structures across humans, while
 the community-level production of short-chain fatty acids (SCFAs) was heterogeneous and
-highly individual specific. Model output revealed complex cross-feeding interactions
+highly individual specific.
+
+Model output revealed complex cross-feeding interactions
 that would be difficult to measure in vivo. Metabolic interaction networks differed
 somewhat consistently between healthy and diabetic subjects. In particular, MICOM
 predicted reduced butyrate and propionate production in a diabetic cohort, with
