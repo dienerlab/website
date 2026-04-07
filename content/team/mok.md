@@ -9,6 +9,6 @@ twitter = ""
 bluesky = ""
 mastodon = ""
 orcid = ""
-website = "www.linkedin.com/in/chuiyangmok"
+website = "https://www.linkedin.com/in/chuiyangmok/"
 date = "2026-04-01T17:30:20-08:00"
 +++
