@@ -3,7 +3,7 @@ hero = "lego2.jpeg"
 pubmed = "40609069"
 doi = "10.1371/journal.pcbi.1013253 "
 title = "Understanding disease-associated metabolic changes in human colonic epithelial cells using the iColonEpithelium metabolic reconstruction"
-keywords = ["new"]
+keywords = ["resource"]
 date = "2025-07-03T13:09:49+01:00"
 +++
 

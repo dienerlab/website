@@ -5,7 +5,7 @@ pubmed = "40774255"
 doi = "10.1016/j.cels.2025.101367"
 date = 2025-08-20T16:00:00-07:00
 title = "Personalized Clostridioides difficile colonization risk prediction and probiotic therapy assessment in the human gut"
-keywords = ["new"]
+keywords = ["article"]
 +++
 
 Clostridioides difficile (C. difficile) colonizes up to 40% of community-dwelling adults

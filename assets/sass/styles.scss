@@ -59,6 +59,10 @@ span.icon {
     width: 260px;
 }
 
+.basic-info > div > span {
+    white-space: nowrap;
+}
+
 .basic-info .face {
     width: 124px;
     height: 124px;

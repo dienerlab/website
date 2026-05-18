@@ -3,6 +3,7 @@ hero = "toilet1.jpg"
 pubmed = "39019013"
 doi = "10.1016/j.xcrm.2024.101646 "
 title = "Aberrant bowel movement frequencies coincide with increased microbe-derived blood metabolites associated with reduced organ function "
+keywords = ["article"]
 date = "2024-07-16T13:35:47+02:00"
 +++
 
