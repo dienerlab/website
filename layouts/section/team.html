@@ -25,6 +25,10 @@
 <br>
 
 <h1 class="title is-3 has-text-info has-text-weight-normal">Co-Supervised</h1>
+<p class="content">
+	Those are awesome Explorer Microbes that belong to different labs but which receive some kind
+	of supervision in our lab as well (thesis advisory comittee, etc.).
+</p>
 <div class="columns is-tablet is-multiline">
 {{range where .Data.Pages.ByDate "Section" "team" }}
 {{ if eq .Params.status "co-supervised"}}
