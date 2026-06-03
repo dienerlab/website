@@ -1,16 +1,16 @@
 +++
 picture = "explorer_microbe.jpg"
-first = ""
-last = ""
-email = ""
-status = "active"
-position = ""
+first = "Eliska"
+last = "Sedlackova"
+email = "eliska.sedlackova@medunigraz.at"
+status = "co-supervised"
+position = "PhD student"
 linkedin = "https://www.linkedin.com/company/107013033"
 bluesky = ""
 mastodon = ""
 orcid = ""
 website = "https://dienerlab.com"
-date = "{{ .Date }}"
+date = "2024-10-01"
 +++
 
 <!-- You can replace this with some fun facts. Will not be used right now but might be... -->

@@ -13,147 +13,35 @@
 <section class="section">
 <div class="container">
 
-<h1 class="title is-3 has-text-info has-text-weight-normal">Current</h1><br>
+<h1 class="title is-3 has-text-info has-text-weight-normal">Current</h1>
 <div class="columns is-tablet is-multiline">
 {{range where .Data.Pages.ByDate "Section" "team" }}
 {{ if eq .Params.status "active"}}
-    <div class="column is-4-widescreen is-6-tablet">
-    <div class="card has-shadow animate__animated animate__zoomIn animate__fast">
-    <div class="card-content">
-        <div class="basic-info">
-
-        <img src="/media/team/{{ .Params.picture }}" class="face">
-
-        <div>
-
-        <h1 class="title is-5 has-text-weight-normal">{{ .Params.first }} {{ .Params.last }}</h1>
-        <p class="subtitle" style="margin-top: 0.5em"><span class="tag is-info is-medium">{{ .Params.position }}</span></p>
-        <span class="is-size-6">joined {{ .Date.Format "2006-01-02" }}</span><br>
-        <span><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></span>
-
-        <p>
-        <a href="{{ .Params.website }}"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fas fa-lg fa-home"></i>
-            </span>
-        </a>
-        {{ if .Params.orcid }}
-        <a href="http://orcid.org/0000-0002-7476-0868"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fab fa-lg fa-orcid"></i>
-            </span>
-        </a>
-        {{ end }}
-        {{ if .Params.github }}
-        <a href="http://github.com/dienerlab" target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fab fa-lg fa-github"></i>
-            </span>
-        </a>
-        {{ end }}
-        {{ if .Params.mastodon }}
-        <a rel="me" href="https://mstdn.science/@thaasophobia"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fab fa-lg fa-mastodon "></i>
-            </span>
-        </a>
-        {{ end }}
-        {{ if .Params.twitter }}
-        <a href="http://twitter.com/thaasophobia"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fab fa-lg fa-twitter"></i>
-            </span>
-        </a>
-        {{ end }}
-        {{ if .Params.bluesky }}
-        <a href="https://bsky.app/profile/cdiener.com"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fas fa-lg fa-square"></i>
-            </span>
-        </a>
-        {{ end }}
-        </p>
-
-        </div>
-    </div></div></div></div>
+<div class="column is-4-widescreen is-6-tablet">
+{{ partial "microbe.html" . }}
+</div>
 {{ end }}{{ end }}</div>
 
-<br><br><br>
+<br>
 
-<h1 class="title is-3 has-text-info has-text-weight-normal">Alumni</h1><br>
+<h1 class="title is-3 has-text-info has-text-weight-normal">Co-Supervised</h1>
+<div class="columns is-tablet is-multiline">
+{{range where .Data.Pages.ByDate "Section" "team" }}
+{{ if eq .Params.status "co-supervised"}}
+<div class="column is-4-widescreen is-6-tablet">
+{{ partial "microbe.html" . }}
+</div>
+{{ end }}{{ end }}</div>
+
+<br><br>
+
+<h1 class="title is-3 has-text-info has-text-weight-normal">Alumni</h1>
 <div class="columns is-tablet is-multiline">
 {{range where .Data.Pages "Section" "team" }}
 {{ if eq .Params.status "alumni"}}
 <div class="column is-4-widescreen is-6-tablet">
-    <div class="card has-shadow animate__animated animate__zoomIn animate__fast">
-    <div class="card-content">
-        <div class="basic-info">
-
-        <img src="/media/team/{{ .Params.picture }}" class="face">
-
-        <div>
-
-        <h1 class="title is-5 has-text-weight-normal">{{ .Params.first }} {{ .Params.last }}</h1>
-        <p class="subtitle" style="margin-top: 0.5em"><span class="tag is-info is-medium">{{ .Params.position }}</span></p>
-        <span class="is-size-6">joined {{ .Date.Format "2006-01-02" }}</span><br>
-        <span style="white-space: nowrap"><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></span>
-        <p>{{ .Content }} </p>
-
-        <p>
-        <a href="{{ .Params.website }}"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fas fa-lg fa-home"></i>
-            </span>
-        </a>
-        {{ if .Params.orcid }}
-        <a href="http://orcid.org/0000-0002-7476-0868"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fab fa-lg fa-orcid"></i>
-            </span>
-        </a>
-        {{ end }}
-        {{ if .Params.github }}
-        <a href="http://github.com/dienerlab" target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fab fa-lg fa-github"></i>
-            </span>
-        </a>
-        {{ end }}
-        {{ if .Params.mastodon }}
-        <a rel="me" href="https://mstdn.science/@thaasophobia"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fab fa-lg fa-mastodon "></i>
-            </span>
-        </a>
-        {{ end }}
-        {{ if .Params.twitter }}
-        <a href="http://twitter.com/thaasophobia"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fab fa-lg fa-twitter"></i>
-            </span>
-        </a>
-        {{ end }}
-        {{ if .Params.bluesky }}
-        <a href="https://bsky.app/profile/cdiener.com"
-            target="_blank">
-            <span class="icon is-medium has-text-primary">
-                <i class="fas fa-lg fa-square"></i>
-            </span>
-        </a>
-        {{ end }}
-        </p>
-
-        </div>
-    </div></div></div></div>
+{{ partial "microbe.html" . }}
+</div>
 {{ end }}{{ end }}</div>
 
 

@@ -1,5 +1,5 @@
 +++
-picture = "explorer_microbe.jpg"
+picture = "anni.jpg"
 first = "Annelies"
 last = "Oismüller"
 email = "annelies.oismueller [at] medunigraz.at"

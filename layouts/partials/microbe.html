@@ -1,0 +1,66 @@
+<div class="card has-shadow animate__animated animate__zoomIn animate__fast">
+    <div class="card-content">
+        <div class="basic-info">
+
+        <img src="/media/team/{{ .Params.picture }}" class="face">
+
+         <div>
+
+        <h1 class="title is-5 has-text-weight-normal">{{ .Params.first }} {{ .Params.last }}</h1>
+        <p class="subtitle" style="margin-top: 0.5em"><span class="tag is-info is-medium">{{ .Params.position }}</span></p>
+        <span class="is-size-6">joined {{ .Date.Format "2006-01-02" }}</span><br>
+        <span><a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></span>
+        {{ if eq .Params.status "alumni" }}
+        <p>{{ .Content }}</p>
+        {{end}}
+
+        <p>
+        <a href="{{ .Params.website }}"
+            target="_blank">
+            <span class="icon is-medium has-text-primary">
+                <i class="fas fa-lg fa-home"></i>
+            </span>
+        </a>
+        {{ if .Params.orcid }}
+        <a href="http://orcid.org/{{ .Params.orcid }}"
+            target="_blank">
+            <span class="icon is-medium has-text-primary">
+                <i class="fab fa-lg fa-orcid"></i>
+            </span>
+        </a>
+        {{ end }}
+        {{ if .Params.github }}
+        <a href="http://github.com/{{ .Params.github }}" target="_blank">
+            <span class="icon is-medium has-text-primary">
+                <i class="fab fa-lg fa-github"></i>
+            </span>
+        </a>
+        {{ end }}
+        {{ if .Params.mastodon }}
+        <a rel="me" href="{{ .Params.mastodon }}"
+            target="_blank">
+            <span class="icon is-medium has-text-primary">
+                <i class="fab fa-lg fa-mastodon "></i>
+            </span>
+        </a>
+        {{ end }}
+        {{ if .Params.linkedin }}
+        <a href="{{ .Params.linkedin }}"
+            target="_blank">
+            <span class="icon is-medium has-text-primary">
+                <i class="fab fa-lg fa-linkedin"></i>
+            </span>
+        </a>
+        {{ end }}
+        {{ if .Params.bluesky }}
+        <a href="https://bsky.app/profile/{{ .Params.bluesky }}"
+            target="_blank">
+            <span class="icon is-medium has-text-primary">
+                <i class="fas fa-brands fa-lg fa-bluesky"></i>
+            </span>
+        </a>
+        {{ end }}
+        </p>
+
+        </div>
+    </div></div></div>
