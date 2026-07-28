@@ -21,7 +21,8 @@ Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschü
 
 Die Bilderrechte liegen bei:
 - Illustrationen von Christian Diener
-- Alle anderen Bilder sind Teil der Public Domain (CC0).
+- Fotos von Teammitgliedern sind Eigentum der abgebildeten Person
+- Hintergründe sind Teil der Public Domain (CC0).
 
 ## Weitere Onlineauftritte
 
