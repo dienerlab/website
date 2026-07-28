@@ -32,7 +32,7 @@ $yellow: #FFE57F;
 }
 
 .hero.has-shadow {
-    box-shadow: 0 2px 4px rgba(10, 10, 10, 0.3),0 0 0 1px rgba(10,10,10,.6);
+    box-shadow: 0 3px 6px rgba(10, 10, 10, 0.3)
 }
 
 .twitter-tweet {
@@ -60,10 +60,10 @@ $yellow: #FFE57F;
 }
 
 .basic-info .face {
-    width: 124px;
-    height: 124px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin: 0 0 0.5em 0;
+    margin: 0 0 1em 0;
 }
 
 html[data-theme=dark] {

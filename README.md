@@ -39,7 +39,7 @@ This should hopefully be straight-forward and has 2 steps.
 picture = "bruno.jpg"
 first = "Bruno"
 last = "Pelaez"
-email = "bruno [at] dienerlab.com"
+email = "bruno⊚dienerlab.com"
 status = "active"
 position = "The real boss"
 twitter = ""

@@ -2,7 +2,7 @@
 picture = "geoffrey_olweny.jpg"
 first = "Geoffrey"
 last = "Olweny"
-email = "geoffrey.olweny [at] medunigraz.at"
+email = "geoffrey.olweny⊚medunigraz.at"
 status = "active"
 position = "PhD student"
 twitter = "joffiiii"

@@ -2,7 +2,7 @@
 picture = "explorer_microbe.jpg"
 first = "Nadezhda"
 last = "Todorova"
-email = "nadezhda.todorova@medunigraz.at"
+email = "nadezhda.todorova⊚medunigraz.at"
 status = "co-supervised"
 position = "PhD student"
 linkedin = "https://www.linkedin.com/company/107013033"

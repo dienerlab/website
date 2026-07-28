@@ -1,8 +1,8 @@
 +++
 picture = "explorer_microbe.jpg"
-first = "Eliska"
-last = "Sedlackova"
-email = "eliska.sedlackova@medunigraz.at"
+first = "Eliška"
+last = "Sedláčková"
+email = "eliska.sedlackova⊚medunigraz.at"
 status = "co-supervised"
 position = "PhD student"
 linkedin = "https://www.linkedin.com/company/107013033"

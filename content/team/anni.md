@@ -2,7 +2,7 @@
 picture = "anni.jpg"
 first = "Annelies"
 last = "Oismüller"
-email = "annelies.oismueller [at] medunigraz.at"
+email = "annelies.oismueller⊚medunigraz.at"
 status = "active"
 position = "Lab Technician"
 twitter = ""

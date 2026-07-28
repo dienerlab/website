@@ -2,7 +2,7 @@
 picture = "klara.jpg"
 first = "Klara"
 last = "Filek"
-email = "klara.filek [at] medunigraz.at"
+email = "klara.filek⊚medunigraz.at"
 status = "alumni"
 position = "Postdoc"
 twitter = "Klara_Fil"

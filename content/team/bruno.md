@@ -2,7 +2,7 @@
 picture = "bruno.jpg"
 first = "Bruno"
 last = "Pelaez"
-email = "bruno [at] dienerlab.com"
+email = "bruno⊚dienerlab.com"
 status = "active"
 position = "The real boss"
 twitter = ""

@@ -2,7 +2,7 @@
 picture = "explorer_microbe.jpg"
 first = "Lily Ting"
 last = "Chin Lee"
-email = "chin.ting [at] monash.edu"
+email = "chin.ting⊚monash.edu"
 status = "co-supervised"
 position = "PhD student"
 twitter = ""

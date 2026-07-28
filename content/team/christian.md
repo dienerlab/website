@@ -2,7 +2,7 @@
 picture = "cd.jpg"
 first = "Christian"
 last = "Diener"
-email = "christian.diener [at] medunigraz.at"
+email = "christian.diener⊚medunigraz.at"
 status = "active"
 position = "Assistant Professor"
 twitter = "thaasophobia"
