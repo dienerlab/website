@@ -14,7 +14,7 @@
     <div class="container">
         <ul>
             {{ range where .Pages "Section" "legal" }}
-            <li class="tab {{ if eq .File.ContentBaseName "general"}} is-active {{end}}" onclick="open_tab(event, '{{ .File.ContentBaseName }}')">
+            <li class="tab {{ if eq .File.ContentBaseName "impressum"}} is-active {{end}}" onclick="open_tab(event, '{{ .File.ContentBaseName }}')">
                 <a>{{ .Title }}</a>
             </li>
             {{ end }}
