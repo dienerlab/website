@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+<div class="hero-body">
+	<div class="container">
+	<h1 class="title has-text-weight-normal">
+		Lab Guide
+	</h1>
+	<h2 class="subtitle">
+		General Legal documentation for the website as required by local law.
+	</h2>
+    </div>
+</div>
+<div class="hero-foot">
+<nav class="tabs is-boxed is-fullwidth is-medium">
+    <div class="container">
+        <ul>
+            {{ range where .Pages "Section" "legal" }}
+            <li class="tab {{ if eq .File.ContentBaseName "general"}} is-active {{end}}" onclick="open_tab(event, '{{ .File.ContentBaseName }}')">
+                <a>{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</nav>
+</div>
+</section>
+
+
+<style>
+    article section.section.container {max-width: 960px !important}
+</style>
+
+{{ range where .Site.RegularPages "Section" "legal" }}
+<article class="is-tab animate__animated animate__fadeIn"
+         id="{{ .File.ContentBaseName }}"
+         {{ if eq .File.ContentBaseName "impressum"}} style="display: block" {{ else }} style="display: none" {{ end }}>
+    <section class="section container">
+    <h1 class="title is-2 has-text-info has-text-weight-light">{{ .Title }}</h1>
+    <p class="level subtitle is-6 has-text-grey is-mobile">
+        <span class="level-start"><span class="icon"><i class="far fa-calendar"></i></span>updated {{ .Date.Format "2006-01-02"}}</span>
+        <span class="level-end"><span class="icon"><i class="far fa-clock"></i></span>{{ .ReadingTime}}m read</span></p>
+    <p class="level subtitle">
+    {{ range .Params.authors }}
+    <span class="tag is-info">{{ . }}</span>
+    {{ end }}</p>
+	<div class="content">
+		{{ .Content }}
+	</div>
+    </section>
+</article>
+{{ end }}
+
+{{ partial "footer.html" . }}

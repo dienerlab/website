@@ -40,7 +40,7 @@
 		{{ if .IsPage }}style="background: url(/media/headers/{{ .Params.hero | default "default.jpg"}}) center / cover !important"
 		{{ end }}>
 		<div class="hero-head">
-			<nav class="navbar" role="navigation" aria-label="main navigation">
+			<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
 				<div class="container">
 					<div class="navbar-brand">
 						{{ if not .IsHome}}
@@ -93,6 +93,9 @@
 							</a>
 							<a class="navbar-item" href="/guide">
 								<span class="icon"><i class="fas fa-book"></i></span><span>Lab Guide</span>
+							</a>
+							<a class="navbar-item" href="/legal">
+								<span class="icon"><i class="fa-solid fa-gavel"></i></span><span>Legal</span>
 							</a>
 						</div>
 						<div class="navbar-end is-hidden-touch">
