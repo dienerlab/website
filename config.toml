@@ -1,5 +1,5 @@
 baseurl = "https://dienerlab.com"
-languageCode = "en-us"
+locale = "en-us"
 title = "Our lab website"
 
 pygmentsCodeFences = true

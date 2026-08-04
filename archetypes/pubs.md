@@ -7,4 +7,4 @@ keywords = ["preprint"]
 date = "{{ .Date }}"
 +++
 
-{{< tweet user="thaasophobia" id="[ID]" >}}
+{{< bluesky link="" >}}
