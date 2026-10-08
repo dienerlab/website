@@ -25,7 +25,7 @@
 				{{ .Content }}
 			</div>
 			<div class="buttons">
-				{{ range $name, $url := .Params.links }}
+				{{ range $name, $url := .Params.Links }}
 				<a class="button is-info is-outlined" href="{{ $url }}"
 					target="_blank">
 					<span class="icon"><i class="fas fa-book"></i></span><span>{{ $name }}</span>
