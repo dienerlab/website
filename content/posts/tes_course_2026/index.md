@@ -2,19 +2,19 @@
 hero = "network.png"
 title = "Course Announcement: Strain-level metabolic modeling of microbial communities"
 authors = ["Christian Diener"]
-keywords = ["course", "registration", "metabolic modeling"]
+keywords = ["course", "registration closed", "metabolic modeling"]
 date = "2026-10-07T13:56:29+02:00"
 
 [links]
-"register here" = "https://formular.medunigraz.at/form/alias/MUG/WorkshopStrainLevel"
+"booked out" = "about:blank
 "course announcement" = "https://insights.medunigraz.at/en/events/detail/workshop-strain-level-metabolic-modeling-of-microbial-communities"
 "Theodor Escherich Symposium" = "https://insights.medunigraz.at/en/events/detail/12th-theodor-escherich-symposium-on-microbiome-research"
 
 +++
 
-The following couse will be offered within the Theodor Escherich Symposium 2026 in Graz, Austria.
+> The course has been booked out. Thanks so much for you interest!
 
-> [**Please Register Here**](https://formular.medunigraz.at/form/alias/MUG/WorkshopStrainLevel)
+The following couse will be offered within the Theodor Escherich Symposium 2026 in Graz, Austria.
 
 The course is limited to 30 participants and will be free of charge.
 
