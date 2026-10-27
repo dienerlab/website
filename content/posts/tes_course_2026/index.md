@@ -62,5 +62,5 @@ Here some commonly asked questions regarding the course.
 
 *What prior knowledge is required to participate in the course?*
 
-The course is designed to be followed with minimal prior knowledge. However, you will probably get a bit more out of the course if you some
-basic foundations in bioinformatics, including the use of the command line interface (CLI) and python.
+The course is designed to be followed with minimal prior knowledge. However, you will probably get a bit more out of the course if you have some
+basic foundation in bioinformatics, including the use of the command line interface (CLI) and python.
