@@ -55,3 +55,12 @@ You will need to bring your laptop and have access to a (free) Google account. N
 
 Sponsoring & Support
 This workshop is supported by the Medical University of Graz, and the FWF Cluster of Excellence [Microbiomes Drive Planetary Health](https://microplanet.at) (Synthesis Module).
+
+## FAQ
+
+Here some commonly asked questions regarding the course.
+
+*What prior knowledge is required to participate in the course?*
+
+The course is designed to be followed with minimal prior knowledge. However, you will probably get a bit more out of the course if you some
+basic foundations in bioinformatics, including the use of the command line interface (CLI) and python.
