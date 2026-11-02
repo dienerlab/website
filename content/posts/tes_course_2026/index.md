@@ -6,7 +6,7 @@ keywords = ["course", "registration closed", "metabolic modeling"]
 date = "2026-10-07T13:56:29+02:00"
 
 [links]
-"booked out" = "about:blank
+"booked out" = "about:blank"
 "course announcement" = "https://insights.medunigraz.at/en/events/detail/workshop-strain-level-metabolic-modeling-of-microbial-communities"
 "Theodor Escherich Symposium" = "https://insights.medunigraz.at/en/events/detail/12th-theodor-escherich-symposium-on-microbiome-research"
 
@@ -35,6 +35,19 @@ In this workshop, you will learn to:
 * Simulate whole microbial communities with [MICOM](https://github.com/micom-dev/micom).
 * Quantify engraftment and microbial interactions.
 * Simulate environmental disruptions and interventions.
+
+## Materials
+
+**Part 1: From Genome to Model & Part 2: From Model to Fluxes**
+
+Slides: [![part 1&2](https://img.shields.io/website?url=https%3A%2F%2Fdienerlab.github.io%2F2026_strain_course%2Freconstruction&label=part%201%262)](https://dienerlab.github.io/2026_strain_course/reconstruction) &nbsp; Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dienerlab/2026_strain_course/blob/main/reconstruction.ipynb)
+
+You can see the presentation with the slides link above.
+Press `?` to get a list of available live options such as slide overviews and speaker mode. You can navigate the presentation using the directional buttons on your keyboard.
+
+**Part 3: From Models to Communities**
+
+Slides: [![part 3](https://img.shields.io/website?up_color=green&up_message=up&label=part%203&url=https%3A%2F%2Fdienerlab.github.io%2F2026_strain_course%2Fmicom)](https://dienerlab.github.io/2026_strain_course/micom) &nbsp; Notebook: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dienerlab/2026_strain_course/blob/main/micom.ipynb)
 
 ## Date and Time
 
