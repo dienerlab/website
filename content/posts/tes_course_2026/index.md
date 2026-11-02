@@ -65,6 +65,7 @@ You will need to bring your laptop and have access to a (free) Google account. N
 
 * Christian Diener
 * Geoffrey Olweny
+* Vanessa Csitkovits
 
 Sponsoring & Support
 This workshop is supported by the Medical University of Graz, and the FWF Cluster of Excellence [Microbiomes Drive Planetary Health](https://microplanet.at) (Synthesis Module).
